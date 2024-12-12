@@ -98,36 +98,5 @@ The final optimized protein sequence is displayed after the iterative mutation p
 https://huggingface.co/blog/AmelieSchreiber/protein-optimization-and-design
 
 
-## LLR (Log Likelihood Ratio) Calculation
-
-For each position `p` along the protein sequence, the **Log Likelihood Ratio (LLR)** is calculated for each of the 20 standard amino acids. The LLR for an amino acid substitution `i` at position `p` is defined as:
-
-`LLR(i,p) = log(P_i,p / P_wt,p)`
-
-Where:
-- **P_i,p** is the probability of observing amino acid `i` at position `p`.
-- **P_wt,p** is the probability of observing the wild-type (WT) amino acid at position `p`.
-
-### Model Inference:
-1. **Masking**: For each position `p`, the target amino acid is masked.
-2. **Probability Prediction**: The model predicts the probability distribution of amino acids at that position using the softmax function:
-
-`P_i,p = softmax(logits_i,p)`
-
-### Log Probability Calculation:
-The logits output by the model are transformed into probabilities using the softmax function. Then, the log probabilities for each amino acid variant `i` at position `p` are calculated:
-
-`log(P_i,p) = log(softmax(logits_i,p))`
-
-### LLR Calculation:
-1. **Wild-Type LLR**: The log probability of the wild-type amino acid at position `p` is denoted as `logP_wt,p` and retrieved from the log probability tensor.
-2. **Variant Amino Acids**: The log probability of amino acid variant `i` at position `p` is calculated similarly.
-
-These LLR values are then used to assess the potential impact of mutations at each position in the protein sequence.
-
-
-
-
-
 
 
