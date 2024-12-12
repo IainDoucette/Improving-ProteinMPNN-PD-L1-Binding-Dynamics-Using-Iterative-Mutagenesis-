@@ -79,14 +79,13 @@ These heatmaps allow us to see regions that are highly conserved and that cannot
 ### Heatmaps 
 Heatmaps are generated to visualize the **Log Likelihood Ratio (LLR)** scores for each mutation at every position in the protein sequence. These heatmaps allow you to quickly assess which mutations are most 
 
-- **High LLR values** (usually in yellow or white) represent mutations that are favorable and improve the protein’s properties.
-- **Low LLR values** (usually in dark blue or purple) represent mutations that are less favorable and could degrade the protein's properties.
+- **High LLR values** (usually in yellow) represent mutations that are favorable and improve the protein’s properties.
+- **Low LLR values** (usually in dark blue ) represent mutations that are less favorable and could degrade the protein's properties.
 
-#### Example Heatmap
-
-![Example Heatmap](path/to/heatmap_image.png)
+#### Example Heatmap - Initial Heatmap of MPNN Generated Sequence
 
 *Figure 1: Heatmap showing LLR scores of mutations in the protein sequence. High values indicate favorable mutations.*
+![image](https://github.com/user-attachments/assets/da9a7a46-10a2-418e-a2d5-51e70c4ade16)
 
 
 ### Final Protein Sequence
