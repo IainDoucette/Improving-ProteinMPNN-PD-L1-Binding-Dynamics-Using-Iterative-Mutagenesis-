@@ -5,7 +5,7 @@ Welcome to the **Protein Sequence Mutation Optimization** project. This project 
 - [Requirements](#requirements)
 - [How it Works](#how-it-works)
 - [Visualizing Results](#visualizing-results)
-
+- [Credits](#credits)
 ## What is this project?
 
 The goal of this project is to help you optimize a given protein sequence by:
@@ -74,9 +74,10 @@ In summary, the process helps you **design proteins** with higher potential for 
 ## Visualizing Results
 
 Throughout the optimization process, visualizations are used to help understand the effects of mutations on the protein sequence. The primary visualization methods used in this project are **heatmaps**.
+These heatmaps allow us to see regions that are highly conserved and that cannot be easily mutated or that have very restricted mutations that are not deleterious. We also see the opposite, where there are residues or regions that can be easily mutated to almost any amino acid without detrimental effects. 
 
-### Heatmaps
-Heatmaps are generated to visualize the **Log Likelihood Ratio (LLR)** scores for each mutation at every position in the protein sequence. These heatmaps allow you to quickly assess which mutations are most beneficial.
+### Heatmaps 
+Heatmaps are generated to visualize the **Log Likelihood Ratio (LLR)** scores for each mutation at every position in the protein sequence. These heatmaps allow you to quickly assess which mutations are most 
 
 - **High LLR values** (usually in yellow or white) represent mutations that are favorable and improve the protein’s properties.
 - **Low LLR values** (usually in dark blue or purple) represent mutations that are less favorable and could degrade the protein's properties.
@@ -86,6 +87,12 @@ Heatmaps are generated to visualize the **Log Likelihood Ratio (LLR)** scores fo
 ![Example Heatmap](path/to/heatmap_image.png)
 
 *Figure 1: Heatmap showing LLR scores of mutations in the protein sequence. High values indicate favorable mutations.*
+
+
+
+## Credits
+https://huggingface.co/blog/AmelieSchreiber/protein-optimization-and-design
+
 
 ### Final Protein Sequence
 The final optimized protein sequence is displayed after the iterative mutation process. This sequence is expected to have improved properties compared to the original.
