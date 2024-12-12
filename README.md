@@ -1,6 +1,6 @@
 # Protein Sequence Mutation Optimization
 
-Welcome to the **Protein Sequence Mutation Optimization** project! 🎉 This project helps you design and optimize protein sequences by applying point mutations and evaluating their effects. Using machine learning models like **ESM-2** and **MPNN**, it explores how mutations impact protein behavior and binding affinity, ultimately helping you design better proteins for your research or therapeutic applications.
+Welcome to the **Protein Sequence Mutation Optimization** project. This project aims to design and optimize protein sequences by applying point mutations and evaluating their effects. Using machine learning models like **ESM-2** and **MPNN**, it explores how mutations impact protein behavior and binding affinity, ultimately aims to design better proteins for research or therapeutic purposes.
 
 ## Table of Contents
 - [What is this project?](#what-is-this-project)
@@ -8,7 +8,6 @@ Welcome to the **Protein Sequence Mutation Optimization** project! 🎉 This pro
 - [How to Use](#how-to-use)
 - [How it Works](#how-it-works)
 - [Visualizing Results](#visualizing-results)
-- [Contributing](#contributing)
 
 ## What is this project?
 
@@ -23,8 +22,7 @@ The goal of this project is to help you optimize a given protein sequence by:
 3. **MPNN Scoring**: Use a neural network model to predict the overall score for each mutated sequence.
 
 ## Requirements
-
-Before you dive in, you'll need a few things installed:
+The code requires the following libraries to run
 
 - **Python 3.x** (ideally Python 3.8 or later)
 - **PyTorch**: For running machine learning models.
