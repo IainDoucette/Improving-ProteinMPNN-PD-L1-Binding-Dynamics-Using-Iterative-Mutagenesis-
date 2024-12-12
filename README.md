@@ -53,6 +53,7 @@ For each iteration, the script applies the selected mutations to the protein seq
 After each round of mutation, the updated protein sequence is evaluated using an **MPNN (Message Passing Neural Network)** model. The MPNN model predicts how well the new protein sequence will perform based on its structure, stability, or binding affinity.
 
 The **MPNN score** gives a numerical value that represents the overall quality or fitness of the mutated sequence. This helps you assess whether the sequence has been improved.
+![image](https://github.com/user-attachments/assets/48cbb9fa-bdb5-4ce1-a8f0-cf973d8e449a)
 
 ### Step 5: **Iterating the Process**
 The program repeats this process multiple times (based on a predefined number of iterations). In each iteration:
