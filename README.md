@@ -3,7 +3,6 @@ Welcome to the **Protein Sequence Mutation Optimization** project. This project 
 ## Table of Contents
 - [What is this project?](#what-is-this-project)
 - [Requirements](#requirements)
-- [How to Use](#how-to-use)
 - [How it Works](#how-it-works)
 - [Visualizing Results](#visualizing-results)
 
