@@ -1,4 +1,4 @@
-Protein Sequence Mutation Optimization
+## Protein Sequence Mutation Optimization
 Welcome to the Protein Sequence Mutation Optimization project! 🎉 This project helps you design and optimize protein sequences by applying point mutations and evaluating their effects. Using machine learning models like ESM-2 and MPNN, it explores how mutations impact protein behavior and binding affinity, ultimately helping you design better proteins for your research or therapeutic applications.
 
 Table of Contents
