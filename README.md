@@ -95,7 +95,24 @@ The final optimized protein sequence is displayed after the iterative mutation p
 #### Final Optimized Sequence
 
 ## Credits
-https://huggingface.co/blog/AmelieSchreiber/protein-optimization-and-design
+MPNN: https://github.com/sokrypton/ColabDesign/blob/main/af/examples/af_relax_design.ipynb
+
+Heatmaps: https://huggingface.co/blog/AmelieSchreiber/protein-optimization-and-design
+
+My PDB: 
+https://www.rcsb.org/structure/5JDR
+
+What is PD-L1: 
+https://www.cancer.gov/publications/dictionaries/cancer-terms/def/pd-l1
+
+https://medlineplus.gov/lab-tests/pdl1-immunotherapy-tests/#:~:text=Immunotherapy%20helps%20your%20own%20immune,healthy%20cells%20in%20your%20body.
+
+Future Directions:
+https://github.com/dauparas/LigandMPNN
+
+https://github.com/flyark/AFM-LIS
+
+
 
 
 
