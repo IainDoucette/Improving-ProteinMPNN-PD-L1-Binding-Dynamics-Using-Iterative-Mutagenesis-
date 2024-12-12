@@ -89,13 +89,19 @@ Heatmaps are generated to visualize the **Log Likelihood Ratio (LLR)** scores fo
 *Figure 1: Heatmap showing LLR scores of mutations in the protein sequence. High values indicate favorable mutations.*
 
 
+### Final Protein Sequence
+The final optimized protein sequence is displayed after the iterative mutation process. This sequence is expected to have improved properties compared to the original.
+
+#### Final Optimized Sequence
 
 ## Credits
 https://huggingface.co/blog/AmelieSchreiber/protein-optimization-and-design
 
 
-### Final Protein Sequence
-The final optimized protein sequence is displayed after the iterative mutation process. This sequence is expected to have improved properties compared to the original.
 
-#### Final Optimized Sequence
+
+
+
+
+
 
