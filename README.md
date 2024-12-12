@@ -70,3 +70,25 @@ Throughout the optimization process, the script generates heatmaps that visualiz
 Finally, once the best mutations have been applied, the final optimized protein sequence and its associated **MPNN score** are outputted. This gives you a clear picture of the optimized sequence’s predicted performance.
 
 In summary, the process helps you **design proteins** with higher potential for stability, binding, or other desired properties, based on scientific predictions and machine learning models.
+
+## Visualizing Results
+
+Throughout the optimization process, visualizations are used to help understand the effects of mutations on the protein sequence. The primary visualization methods used in this project are **heatmaps**.
+
+### Heatmaps
+Heatmaps are generated to visualize the **Log Likelihood Ratio (LLR)** scores for each mutation at every position in the protein sequence. These heatmaps allow you to quickly assess which mutations are most beneficial.
+
+- **High LLR values** (usually in yellow or white) represent mutations that are favorable and improve the protein’s properties.
+- **Low LLR values** (usually in dark blue or purple) represent mutations that are less favorable and could degrade the protein's properties.
+
+#### Example Heatmap
+
+![Example Heatmap](path/to/heatmap_image.png)
+
+*Figure 1: Heatmap showing LLR scores of mutations in the protein sequence. High values indicate favorable mutations.*
+
+### Final Protein Sequence
+The final optimized protein sequence is displayed after the iterative mutation process. This sequence is expected to have improved properties compared to the original.
+
+#### Final Optimized Sequence
+
