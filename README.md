@@ -92,7 +92,6 @@ Heatmaps are generated to visualize the **Log Likelihood Ratio (LLR)** scores fo
 ### Final Protein Sequence
 The final optimized protein sequence is displayed after the iterative mutation process. This sequence is expected to have improved properties compared to the original.
 
-#### Final Optimized Sequence
 
 ## Credits
 MPNN: https://github.com/sokrypton/ColabDesign/blob/main/af/examples/af_relax_design.ipynb
